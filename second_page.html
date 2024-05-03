@@ -1,0 +1,89 @@
+<div style="text-align:center; margin-top:20px;">
+    <button onclick="changeBackgroundColor('#6495ED')" style="padding: 10px 20px; font-size: 16px; color: white; background-color: #6495ED; border: none; border-radius: 5px; cursor: pointer; margin: 5px; transition: background-color 0.3s, transform 0.2s;">Darker Blue</button>
+    <button onclick="changeBackgroundColor('#696969')" style="padding: 10px 20px; font-size: 16px; color: white; background-color: #696969; border: none; border-radius: 5px; cursor: pointer; margin: 5px; transition: background-color 0.3s, transform 0.2s;">Medium Grey</button>
+    <button onclick="changeBackgroundColor('white')" style="padding: 10px 20px; font-size: 16px; color: black; background-color: #F8F8F8; border: none; border-radius: 5px; cursor: pointer; margin: 5px; transition: background-color 0.3s, transform 0.2s;">White</button>
+</div>
+
+<script>
+    function changeBackgroundColor(color) {
+        document.body.style.backgroundColor = color;
+    }
+</script>
+
+
+<!doctype html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/main.css">
+      <title>Page Title</title>
+   </head>
+   <body>
+      <div class="container" id="bsr-wrapper">
+         <div class='py-3 my-4'></div>
+         <h1>Visualization 1</h1>
+         <div class='my-5'></div>
+         <p>Purpose and Data:
+            This scatter plot visualizes the relationship between GDP and electricity consumption across different income groups. Each country is represented as a point on the plot, allowing for a clear visualization of how these two economic indicators interact within high-income, middle-income, and low-income nations. The plot serves as a tool to evaluate the correlation between economic prosperity and energy usage, illustrating the varying scales of economic activities and their environmental implications across the income spectrum.</p>
+
+<embed src="GDPvselectricityconsumption.html" type="" width="1300" height="800">
+    <div class="row">
+        <div class="col">
+        </div>
+        <!doctype html>
+        <html lang="en" dir="ltr">
+           <head>
+              <meta charset="utf-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+              <link rel="stylesheet" href="css/main.css">
+              <title>Page Title</title>
+           </head>
+           <body>
+              <div class="container" id="bsr-wrapper">
+                 <p>Analysis and Insights:
+                    The scatter plot reveals a trend where higher GDP typically correlates with greater electricity consumption, indicating that wealthier nations have higher energy needs, possibly linked to larger industrial bases and higher living standards. This visualization provides a platform for analyzing how economic growth drives energy consumption and can highlight issues related to sustainable energy use in different economic contexts. High-income countries, with their significant consumption levels, might reflect higher efficiency or greater waste, whereas low-income countries, with lower levels of consumption, face challenges related to energy access and economic development.</p>
+                 <div class='py-3 my-4'></div>
+                 <h1>Visualization 2</h1>
+                 <p>Purpose and Data:
+                    This bubble chart explores the relationship between public debt as a percentage of GDP and the overall GDP, with bubble sizes representing population sizes. This visualization categorizes countries into three income groups to highlight economic differences.</p>
+                 <embed src="Publicdebtvsgdpbyincomepop.html" type="" width="1300" height="800">
+                 <p>Analysis and Insights:
+                    The chart shows that larger economies often have higher absolute amounts of public debt but manage it within the confines of their GDP. Larger bubbles in high-income countries suggest a substantial population managing significant levels of debt, indicating robust economic mechanisms to sustain and service this debt. On the other hand, smaller bubbles in low-income countries may reflect a lower capacity to handle large debts, underscoring potential vulnerabilities that could affect economic stability and growth.</p>
+                 <div class='py-3 my-4'></div>
+                 <h1>Visualization 3</h1>
+                 <p>Purpose and Data:
+                    This bar chart visualizes the average GDP real growth rate and unemployment rate by income group, providing insights into economic dynamics and labor market health.</p>
+                 <embed src="AvgGDPrealgrowthratevsunemp.html" type="" width="1300" height="800">
+                 <p>Analysis and Insights:
+                    The visualization effectively illustrates the inverse relationship typically observed between GDP growth and unemployment rates, highlighting economic principles at play. High-income groups demonstrate robust economic growth coupled with lower unemployment rates, suggesting a vibrant economic environment where new jobs are created, and economic activity is sustained. Conversely, low-income groups may experience lower GDP growth rates and higher unemployment, signaling economic challenges and potential areas for policy intervention. This chart is particularly useful for economic planners and policy makers as it provides clear indicators of where targeted efforts to stimulate growth and reduce unemployment might be most needed. The data can inform strategies aimed at fostering economic stability and reducing poverty by stimulating job creation in lagging regions.</p>
+              </div>
+              <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script><script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script><script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script><script src="js/main.js"></script>
+           </body>
+        </html>
+        <!doctype html>
+        <html lang="en" dir="ltr">
+           <head>
+              <meta charset="utf-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+              <link rel="stylesheet" href="css/main.css">
+              <title>Page Title</title>
+           </head>
+           <body>
+              <div class="container" id="bsr-wrapper">
+                 <div class='py-3 my-4'></div>
+                 <nav aria-label="page navigation (footer)">
+                    <ul class="pagination ">
+                       <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+                       <li class="page-item"><a class="page-link" href="second_page.html">2</a></li>
+                       <li class="page-item"><a class="page-link" href="Third_page.html">3</a></li>
+                       <li class="page-item"><a class="page-link" href="fourth_page.html">4</a></li>
+                    </ul>
+                 </nav>
+              </div>
+              <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script><script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script><script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script><script src="js/main.js"></script>
+           </body>
+        </html>
